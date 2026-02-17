@@ -4,165 +4,193 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Onsite Phone Repair | Charlotte & Monroe NC</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-background:#f4f6f9;
-color:#111;
+body {
+    background: #f4f6f9;
+    color: #222;
 }
 
-.hero{
-background:linear-gradient(135deg,#0ea5e9,#2563eb);
-color:white;
-text-align:center;
-padding:80px 20px;
+.hero {
+    background: linear-gradient(135deg, #1e73ff, #00a2ff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
 
-.hero h1{
-font-size:40px;
-margin-bottom:20px;
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
 }
 
-.hero p{
-font-size:18px;
-margin-bottom:30px;
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
-.buttons{
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
+.buttons a {
+    display: inline-block;
+    background: #ffb100;
+    color: black;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-.btn{
-background:#f59e0b;
-color:white;
-padding:15px 30px;
-border-radius:40px;
-text-decoration:none;
-font-weight:600;
-transition:0.3s;
+.section {
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.btn:hover{
-background:#d97706;
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.section{
-padding:70px 20px;
-text-align:center;
+.services {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
 }
 
-.dark{
-background:#0d1b2a;
-color:white;
+.services li {
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
-.light{
-background:white;
+.form-box {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
 }
 
-.gray{
-background:#e5e7eb;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-.section h2{
-font-size:30px;
-margin-bottom:25px;
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
-.section p{
-max-width:800px;
-margin:0 auto;
-line-height:1.6;
-font-size:18px;
+button {
+    background: #1e73ff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.services{
-margin-top:30px;
-line-height:2;
-font-size:18px;
+button:hover {
+    opacity: 0.9;
 }
 
-.footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px 20px;
-font-size:14px;
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 </style>
 </head>
 
 <body>
 
-<section class="hero">
-<h1>Onsite Phone Repair</h1>
-<p>Mobile Phone Repair in Charlotte & Monroe, North Carolina</p>
-<p>We Fix It At Your Doorstep • Same-Day Service Available</p>
-
-<div class="buttons">
-<a href="tel:1234567890" class="btn">📞 Call Now</a>
-<a href="sms:1234567890" class="btn">💬 Text Us</a>
+<div class="hero">
+    <h1>Onsite Phone Repair</h1>
+    <p>Mobile Phone Repair in Charlotte & Monroe, NC</p>
+    <p>We Fix It At Your Doorstep</p>
+    <div class="buttons">
+        <a href="tel:9804192684">📞 Call Now</a>
+        <a href="sms:9804192684">💬 Text Us</a>
+    </div>
 </div>
-</section>
 
-<section class="section dark">
-<h2>Professional Mobile Repair Specialists</h2>
-<p>
-We provide fast, reliable, same-day mobile phone repair services in Charlotte and Monroe, NC.
-Our experienced technicians travel directly to your home, office, or job site so you don’t have to visit a store.
-Convenient, professional, and affordable service you can trust.
-</p>
-</section>
-
-<section class="section light">
-<h2>Our Services</h2>
-
-<div class="services">
-✅ Screen Replacement<br>
-✅ Battery Replacement<br>
-✅ Charging Port Repair<br>
-✅ Camera Repair<br>
-✅ Speaker & Microphone Repair<br>
-✅ Water Damage Diagnostics<br>
-✅ iPhone & Android Repairs
+<div class="section">
+    <h2>Professional Mobile Repair Service</h2>
+    <p>Serving Charlotte and Monroe, North Carolina with fast, reliable same-day phone repair.</p>
+    <br>
+    <p>We travel directly to your home or workplace for convenient service.</p>
 </div>
-</section>
 
-<section class="section gray">
-<h2>Why Choose Us?</h2>
+<div class="section">
+    <h2>Request a Repair</h2>
+    <div class="form-box">
+        <form action="mailto:onsitephonerepair1@gmail.com" method="POST" enctype="text/plain">
+            
+            <input type="text" name="Name" placeholder="Your Name" required>
+            
+            <input type="tel" name="Phone" placeholder="Your Phone Number" required>
 
-<div class="services">
-✔ Same-Day Service<br>
-✔ We Come To You<br>
-✔ Affordable Pricing<br>
-✔ High-Quality Parts<br>
-✔ Professional & Reliable<br>
-✔ Serving Charlotte & Monroe, NC
+            <select name="Phone Brand" required>
+                <option value="">Select Phone Brand</option>
+                <option>iPhone</option>
+                <option>Samsung</option>
+                <option>Google Pixel</option>
+                <option>Motorola</option>
+                <option>Other</option>
+            </select>
+
+            <input type="text" name="Phone Model" placeholder="Phone Model (Example: iPhone 13 Pro)" required>
+
+            <select name="Phone Year" required>
+                <option value="">Select Phone Year</option>
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018 or older</option>
+            </select>
+
+            <select name="Service Needed" required>
+                <option value="">Select Service</option>
+                <option>Screen Replacement</option>
+                <option>Battery Replacement</option>
+                <option>Charging Port Repair</option>
+                <option>Camera Repair</option>
+                <option>Water Damage</option>
+                <option>Other</option>
+            </select>
+
+            <textarea name="Details" placeholder="Describe the issue"></textarea>
+
+            <button type="submit">Send Repair Request</button>
+
+        </form>
+    </div>
 </div>
-</section>
 
-<section class="section dark">
-<h2>Book Your Repair Today</h2>
-<p>
-Call or text us now for a fast quote and same-day mobile repair service in Charlotte and Monroe.
-We come to your location and get your device working like new.
-</p>
-</section>
+<div class="section">
+    <h2>Service Areas</h2>
+    <p>📍 Based in Charlotte, NC</p>
+    <p>📍 Serving Monroe, NC & Surrounding Areas</p>
+    <p>📧 onsitephonerepair1@gmail.com</p>
+    <p>📞 980-419-2684</p>
+</div>
 
-<section class="footer">
-© 2026 Onsite Phone Repair | Charlotte & Monroe, NC
-</section>
+<div class="footer">
+    © 2026 Onsite Phone Repair | Charlotte & Monroe NC
+</div>
 
 </body>
 </html>
