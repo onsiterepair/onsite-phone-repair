@@ -3,251 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Onsite Phone Repair | Charlotte NC Mobile Repair</title>
-<meta name="description" content="Onsite Phone Repair in Charlotte & Monroe NC. We come to your house for screen repair, battery replacement, charging issues and more. Call Raul Giron at 980-419-2684.">
+<title>Onsite Phone Repair</title>
 
 <style>
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f9;
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f6f9;
 }
-
-/* NAVBAR */
-.navbar {
-    background: #0d3b66;
-    color: white;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
+header {
+  background:linear-gradient(135deg,#0f3c68,#1e73be);
+  color:white;
+  text-align:center;
+  padding:70px 20px;
 }
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin-left: 15px;
-    font-weight: bold;
+header h1 {
+  font-size:38px;
+  margin-bottom:10px;
 }
-
-/* HERO */
-.hero {
-    background: linear-gradient(135deg, #0d3b66, #1e90ff);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
+header p {
+  font-size:18px;
 }
-
-.hero img {
-    width: 140px;
-    margin-bottom: 15px;
+.btn {
+  display:inline-block;
+  margin-top:25px;
+  padding:14px 35px;
+  border-radius:40px;
+  background:#ff9800;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
 }
-
-.hero h1 {
-    font-size: 38px;
+.container {
+  max-width:600px;
+  margin:40px auto;
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
+input, select {
+  width:100%;
+  padding:14px;
+  margin-bottom:15px;
+  border-radius:10px;
+  border:1px solid #ddd;
 }
-
-.buttons a {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 35px;
-    border-radius: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-.call-btn {
-    background: #ff9900;
-    color: black;
-}
-
-.call-btn:hover {
-    background: #ffaa22;
-    transform: scale(1.05);
-}
-
-.text-btn {
-    background: white;
-    color: #0d3b66;
-}
-
-.text-btn:hover {
-    transform: scale(1.05);
-}
-
-/* SERVICES */
-.services {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-}
-
-/* PRICING */
-.pricing {
-    background: #ffffff;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.price-box {
-    background: linear-gradient(135deg, #ff9900, #ffb347);
-    padding: 25px;
-    border-radius: 15px;
-    display: inline-block;
-    margin: 10px;
-    font-weight: bold;
-}
-
-/* REVIEWS */
-.reviews {
-    background: #0d3b66;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.reviews a {
-    background: #ff9900;
-    padding: 12px 25px;
-    border-radius: 30px;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* FORM */
-.form-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-form {
-    max-width: 500px;
-    margin: auto;
-}
-
-input, select, textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
 button {
-    width: 100%;
-    padding: 15px;
-    background: linear-gradient(135deg, #0d3b66, #1e90ff);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: bold;
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:40px;
+  background:#1e73be;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
 }
-
-/* FOOTER */
-.footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 25px;
+.track-section {
+  text-align:center;
+  margin:50px 0;
+}
+.status-box {
+  margin-top:20px;
+  font-weight:600;
+}
+footer {
+  text-align:center;
+  padding:20px;
+  background:#0f3c68;
+  color:white;
+  margin-top:60px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="navbar">
-    <div><strong>Onsite Phone Repair</strong></div>
-    <div>
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
-    </div>
+<header>
+  <h1>Onsite Phone Repair</h1>
+  <p>Same-Day Service • We Come To You • Trusted Mobile Repair</p>
+  <a href="#book" class="btn">Book Repair</a>
+</header>
+
+<div class="container" id="book">
+  <h2>Schedule Your Repair</h2>
+
+  <input type="text" id="name" placeholder="Full Name" required>
+  <input type="text" id="phone" placeholder="Phone Number" required>
+  <input type="text" id="device" placeholder="Device Model (ex: iPhone 13)" required>
+  <input type="text" id="autocomplete" placeholder="Service Address" required>
+
+  <select id="issue">
+    <option value="Screen Repair">Screen Repair</option>
+    <option value="Battery Replacement">Battery Replacement</option>
+    <option value="Charging Port Repair">Charging Port Repair</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <button onclick="submitRepair()">Book & Pay $150 Now</button>
+
+  <div id="ticketDisplay" style="margin-top:20px;font-weight:600;"></div>
 </div>
 
-<div class="hero">
-    <img src="logo.png" alt="Onsite Phone Repair Logo">
-    <h1>We Fix It At Your Doorstep</h1>
-    <p>Charlotte & Monroe, North Carolina</p>
-
-    <div class="buttons">
-        <a href="tel:9804192684" class="call-btn">📞 Call Now</a>
-        <a href="sms:9804192684" class="text-btn">💬 Text Us</a>
-    </div>
+<div class="track-section">
+  <h2>Track Your Repair</h2>
+  <input type="text" id="trackInput" placeholder="Enter Ticket # (ex: OPR-123456)">
+  <button onclick="checkStatus()">Check Status</button>
+  <div class="status-box" id="statusResult"></div>
 </div>
 
-<div class="services" id="services">
-    <h2>Our Services</h2>
-    <div class="service-grid">
-        <div class="card">📱 Screen Repair</div>
-        <div class="card">🔋 Battery Replacement</div>
-        <div class="card">🔌 Charging Issues</div>
-        <div class="card">📷 Camera Repair</div>
-        <div class="card">🎤 Speaker / Mic Repair</div>
-        <div class="card">💾 Data Recovery</div>
-    </div>
-</div>
+<footer>
+  © 2026 Onsite Phone Repair | We Fix Everything in Phones | We Come To Your Doorstep
+</footer>
 
-<div class="pricing" id="pricing">
-    <h2>Starting Prices</h2>
-    <div class="price-box">Screen Repair – Starting at $79</div>
-    <div class="price-box">Battery Replacement – Starting at $69</div>
-    <div class="price-box">Diagnostics – FREE</div>
-</div>
+<script>
+function generateTicket() {
+  return "OPR-" + Math.floor(100000 + Math.random() * 900000);
+}
 
-<div class="reviews">
-    <h2>⭐ See Our Google Reviews</h2>
-    <p>Fast • Professional • Same-Day Service</p>
-    <a href="#">View Reviews</a>
-</div>
+function submitRepair() {
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const device = document.getElementById("device").value;
+  const address = document.getElementById("autocomplete").value;
 
-<div class="form-section" id="contact">
-    <h2>Request a Repair</h2>
+  if(!name || !phone || !device || !address) {
+    alert("Please fill out all required fields.");
+    return;
+  }
 
-    <form action="https://formsubmit.co/onsitephonerepair1@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="tel" name="phone" placeholder="Your Phone Number" required>
-        <textarea name="message" placeholder="Describe the issue"></textarea>
-        <button type="submit">Send Repair Request</button>
-    </form>
-</div>
+  const ticket = generateTicket();
+  localStorage.setItem(ticket, "Awaiting Technician Assignment");
 
-<div class="footer">
-    Raul Giron | 980-419-2684<br>
-    Based in Charlotte, NC | Serving Monroe & Surrounding Areas<br>
-    © 2026 Onsite Phone Repair
-</div>
+  document.getElementById("ticketDisplay").innerHTML =
+    "Redirecting to secure payment...";
+
+  // 🔥 AUTO REDIRECT TO STRIPE
+  window.location.href = "https://buy.stripe.com/cNi28lfaf4yIdQc7Afd3i00";
+}
+
+function checkStatus() {
+  const ticket = document.getElementById("trackInput").value;
+  const status = localStorage.getItem(ticket);
+
+  if(status) {
+    document.getElementById("statusResult").innerHTML = "Status: " + status + " 🔧";
+  } else {
+    document.getElementById("statusResult").innerHTML = "Ticket not found.";
+  }
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&libraries=places"></script>
+<script>
+function initAutocomplete() {
+  const input = document.getElementById('autocomplete');
+  new google.maps.places.Autocomplete(input);
+}
+google.maps.event.addDomListener(window, 'load', initAutocomplete);
+</script>
 
 </body>
 </html>
